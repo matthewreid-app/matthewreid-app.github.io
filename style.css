@@ -1,0 +1,77 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none; /* Get rid of dashes between buttons */
+    margin: 10px;
+}
+
+button {
+    font-size: 25px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px; 
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the buttons */
+button:hover {
+    background-color: gray;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #535353;
+}
+
+
+
+/* 
+ Image/text allignment used for Trouble Shooting page
+*/
+.imageLeft {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 350px;
+    height: auto;
+}
+
+.belowImageContainer {
+    display: flex;
+    justify-content: space-between;  
+    margin-top: 20px;
+}
+
+.allignText {
+    width: 74%; 
+}
+
+/*
+    Image and text alignment for images right next to each other
+*/
+.half {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.half img{
+    width: 400px;
+    height: 300px;
+}
+
+.half-text {
+    text-align: left;
+}
